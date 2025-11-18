@@ -1,0 +1,156 @@
+:root {
+  /*  ================================
+   LAYOUTS & MEDIA QUERIES:
+    - Mobile: 375px
+    - Tablet: 768px -> @media (min-width: 48rem) {}
+    - Desktop: 1440px -> @media (min-width: 90rem) {}
+   ================================ */
+
+  /* ================================
+   COLORS
+
+   - Add your custom palette here
+   - Keep the primary / neutral / basic color division
+   ================================ */
+
+  /* Primary */
+  --clr-primary-blue-400: hsl(180, 66%, 49%);
+  --clr-primary-purple-950: hsl(257, 27%, 26%);
+
+  /* Secondary */
+
+  --clr-secondary-red-400: hsl(0, 87%, 67%);
+  --clr-secondary-blue-300: hsl(180, 57%, 75%);
+  --clr-secondary-purple-900: hsl(256, 26%, 33%);
+
+  /* Neutral  */
+  --clr-neutral-grey-400: hsl(0, 0%, 75%);
+  --clr-neutral-grey-500: hsl(257, 7%, 63%);
+  --clr-neutral-grey-900: hsl(255, 11%, 22%);
+  --clr-neutral-grey-950: hsl(260, 8%, 14%);
+
+  --clr-neutral-purple-50: hsl(255, 33%, 95%);
+
+  /* Basic */
+
+  --clr-basic-white: hsl(0, 100%, 100%);
+  --clr-basic-black: hsl(0, 0%, 0%);
+
+  /* ================================
+   SPACING
+
+    - Clean up or extend spacing tokens as needed
+    - Keep consistent incremental scale (0, 100, 200, 300…)
+    - Add new values specific to the project if required (https://elementor.com/blog/px-to-rem/)
+   ================================ */
+
+  --spacing-none: 0; /* 0 */
+  --spacing-100: 0.5rem; /* 8px */
+  --spacing-200: 1rem; /* 16px */
+  --spacing-300: 1.5rem; /* 24px */
+  --spacing-400: 2rem; /* 32px */
+  --spacing-500: 2.5rem; /* 40px */
+
+  --spacing-600: 3rem; /* 48px */
+  --spacing-700: 3.5rem; /* 56px */
+  --spacing-900: 4.5rem; /* 72px */
+  --spacing-1000: 5rem; /* 80px */
+
+  /* ================================
+   TYPOGRAPHY
+
+    - Important: always include fallback font families
+    - Recommended fallbacks: sans-serif / serif
+   ================================ */
+
+  --ff-base: "Poppins", sans-serif;
+
+  --f-stl-normal: normal;
+  --f-stl-italic: italic;
+ 
+  /* ================================
+   FONT WEIGHTS
+
+    - Clean up or extend core weight tokens as needed
+    - Add new values specific to the project if required
+   ================================ */
+
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* ================================
+   LETTER SPACING
+
+   - Define none / tight / loose presets
+   - Use rem units for better scaling across sizes
+   ================================ */
+
+  --ls-tightest: -0.13rem; /* -2px */
+  --ls-tight: 0.06rem; /* -1px */
+  --ls-none: 0; /* 0 */
+
+  /* ================================
+   FONT SIZES
+
+   - Match naming to your design tool (e.g., Figma presets)
+   - Use relative units for responsive scaling
+   - Add project-specific values as needed
+   ================================ */
+
+  --fs-preset-1: 5rem; /* 80px */
+  --fs-preset-2: 2.5rem; /* 40px */
+  --fs-preset-3: 1.75rem; /* 28px */
+  --fs-preset-4: 1.4rem; /* 22px */
+  --fs-preset-5: 1.25rem; /* 20px */
+  --fs-preset-6: 1.1rem; /* 18px */
+  --fs-preset-7: 0.9rem; /* 15px */
+
+  /* ================================
+   LINE HEIGHTS
+   
+   - Keep ratios (1.35 / 1.5 / 1.6) consistent with typography scale
+   - Adjust per component type if necessary
+   ================================ */
+
+  --lh-115: 1.15;
+  --lh-120: 1.2;
+  --lh-150: 1.5;
+  --lh-165: 1.65;
+  --lh-170: 1.7;
+  --lh-175: 1.75;
+}
+
+/* ================================
+   FONT DECLARATIONS
+
+   - Define custom fonts used in this project
+   - .woff2 files can be downloaded from:
+     https://gwfh.mranftl.com/fonts
+   - Use `font-display: swap` for better performance
+   ================================ */
+
+  
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/poppins-v24-latin/poppins-v24-latin-500.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../fonts/poppins-v24-latin/poppins-v24-latin-500italic.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/poppins-v24-latin/poppins-v24-latin-700.woff2') format('woff2'); 
+}
+
