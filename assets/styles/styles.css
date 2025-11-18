@@ -1,3 +1,37 @@
+body {
+    font-family: var(--ff-base);
+}
 .shortly-url__header {
-    
+
+}
+
+.shortly-url__intro-title {
+    color: var(--clr-neutral-grey-900);
+    /* preset 2 bold */
+    font-size: var(--fs-preset-2);
+    line-height: var(--lh-115);
+    letter-spacing: var(--ls-tight);
+    font-weight: var(--fw-bold);
+}
+.shortly-url__intro-desc {
+    color: var(--clr-neutral-grey-500);
+    /* preset 6 medium */
+    font-size: var(--fs-preset-6);
+    line-height: var(--lh-175);
+    letter-spacing: var(--ls-none);
+    font-weight: var(--fw-medium);
+}
+.shortly-url__intro-btn {
+    /* preset 5 bold */
+    font-size: var(--fs-preset-5);
+    line-height: var(--lh-150);
+    letter-spacing: var(--ls-none);
+    font-weight: var(--fw-bold);
+
+    color: var(--clr-basic-white);
+    background-color: var(--clr-primary-blue-400);
+
+    padding: var(--spacing-200) var(--spacing-500);
+    border: 0;
+    border-radius: 6.25rem;
 }
