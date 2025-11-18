@@ -47,4 +47,8 @@ body {
   border-radius: 6.25rem;
   margin-block-start: 32px;
 }
+.shortly-url__intro-btn:hover, .shortly-url__intro-btn:focus-within {
+    cursor: pointer;
+    background-color: var(--clr-secondary-blue-300);
+}
 /* ========== END HEADER SECTION ========== */
