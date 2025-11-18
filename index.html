@@ -39,18 +39,24 @@
   <body>
 
     <header class="shortly-url__header">
-      <!-- <nav class="shortly-url__nav">
+      <nav class="shortly-url__nav">
         <img src="./images/logo.svg" alt="logo" class="shortly-url__nav-logo" width="120" height="33" />
-        <ul class="shortly-url__nav-list">
-          <li class="shortly-url__nav-item">Features</li>
-          <li class="shortly-url__nav-item">Pricing</li>
-          <li class="shortly-url__nav-item">Resources</li>
-        </ul>
-        <button class="shortly-url__btn shortly-url__btn--login">Login</button>
-        <button class="shortly-url__btn shortly-url__btn--signup">Sign Up</button>
-      </nav> -->
+        <button class="shortly-url__nav-btn" id="toggle-nav-btn">
+          <img src="./assets/images/nav-btn.svg" alt="" width="24" height="21" >
+          </button>
+          <ul class="shortly-url__nav-list" id="nav-list">
+            <li><a href="#" class="shortly-url__nav-link">Features</a></li>
+            <li><a href="#" class="shortly-url__nav-link">Pricing</a></li>
+            <li ><a href="#" class="shortly-url__nav-link">Resources</a></li>
+            <hr class="shortly-url__nav-divider"/>
+            <li ><a href="#" class="shortly-url__nav-link">Login</a></li>
+            <li ><a href="#" class="shortly-url__nav-link">Sign Up</a></li>
+        
+          </ul>
+        
+      </nav>
       <article class="shortly-url__intro">
-        <img src="./assets/images/illustration-working.svg" alt="" class="shortly-url__intro-hero" >
+        <img src="./assets/images/illustration-working.svg" alt="" class="shortly-url__intro-hero" width="733" height="482">
         <h1 class="shortly-url__intro-title">More than just shorter links</h1>
         <p class="shortly-url__intro-desc">
           Build your brand’s recognition and get detailed insights on how your
@@ -80,4 +86,15 @@
       >. Coded by <a href="#">Your Name Here</a>.
     </div> -->
   </body>
+  <script>
+    const toggleNavBtn = document.getElementById('toggle-nav-btn');
+
+    const toggleNavList = () => {
+      const navList = document.getElementById('nav-list');
+      navList.classList.toggle('is-open');
+    }
+    
+    toggleNavBtn.addEventListener('click', ()=> toggleNavList());
+    
+  </script>
 </html>
