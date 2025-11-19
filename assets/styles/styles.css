@@ -4,13 +4,13 @@ body {
 }
 
 /* ========== HEADER SECTION ========== */
-.shortly-url__header {
+.header {
   display: grid;
   place-items: center;
   gap: var(--spacing-300);
 }
 
-.shortly-url__nav {
+.header__nav {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, max-content);
@@ -19,13 +19,13 @@ body {
   position: relative;
 }
 
-.shortly-url__nav-btn {
+.header__toggle {
   background-color: transparent;
   border: 0;
   cursor: pointer;
 }
 
-.shortly-url__nav-list {
+.header__list {
   position: absolute;
   left: 0;
   top: var(--spacing-600);
@@ -49,22 +49,22 @@ body {
   display: none;
 
 }
-.shortly-url__nav-list.is-open {
+.header__list.is-open {
   display: grid;
 }
-.shortly-url__nav-link {
+.header__link {
   color: var(--clr-basic-white);
   text-decoration: none;
   display: block;
  
   padding: var(--spacing-100);
 }
-.shortly-url__nav-link:hover {
+.header__link:hover {
   border-radius: 1.75rem;
   background-color: var(--clr-primary-blue-400);
 }
 
-.shortly-url__nav-divider {
+.header__nav-divider {
   background-color: var(--clr-neutral-grey-500);
   height: 1px;
   width: 100%;
@@ -72,15 +72,15 @@ body {
  
   outline: 0;
 }
-.shortly-url__intro {
+.header__hero {
   text-align: center;
 }
-.shortly-url__intro-hero {
+.header__hero-img {
   margin-inline-start: 5%;
   max-width: 135%;
   height: auto;
 }
-.shortly-url__intro-title {
+.header__title {
   color: var(--clr-neutral-grey-900);
   /* preset 2 bold */
   font-size: var(--fs-preset-2);
@@ -91,7 +91,7 @@ body {
   margin-block-start: 40px;
   margin-block-end: 16px;
 }
-.shortly-url__intro-desc {
+.header__description {
   color: var(--clr-neutral-grey-500);
   /* preset 6 medium */
   font-size: var(--fs-preset-6);
@@ -99,7 +99,7 @@ body {
   letter-spacing: var(--ls-none);
   font-weight: var(--fw-medium);
 }
-.shortly-url__intro-btn {
+.header__cta {
   /* preset 5 bold */
   font-size: var(--fs-preset-5);
   line-height: var(--lh-150);
@@ -114,11 +114,12 @@ body {
   border-radius: 6.25rem;
   margin-block-start: 32px;
 }
-.shortly-url__intro-btn:hover,
-.shortly-url__intro-btn:focus-within {
+.header__cta:hover,
+.header__cta:focus-within {
   cursor: pointer;
   background-color: var(--clr-secondary-blue-300);
 }
+
 /* ========== END HEADER SECTION ========== */
 
 /*
