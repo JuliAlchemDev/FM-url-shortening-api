@@ -53,6 +53,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./assets/styles/reset.css" />
     <link rel="stylesheet" href="./assets/styles/custom.css" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
     <!-- Fonts Preload -->
     <link
       rel="preload"
@@ -65,25 +66,102 @@
     <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
   </head>
   <body>
-    Features Pricing Resources Login Sign Up More than just shorter links Build
-    your brand’s recognition and get detailed insights on how your links are
-    performing. Get Started Shorten a link here... Shorten It! Advanced
-    Statistics Track how your links are performing across the web with our
-    advanced statistics dashboard. Brand Recognition Boost your brand
-    recognition with each click. Generic links don’t mean a thing. Branded links
-    help instil confidence in your content. Detailed Records Gain insights into
-    who is clicking your links. Knowing when and where people engage with your
-    content helps inform better decisions. Fully Customizable Improve brand
-    awareness and content discoverability through customizable links,
-    supercharging audience engagement. Boost your links today Get Started
-    Features Link Shortening Branded Links Analytics Resources Blog Developers
-    Support Company About Our Team Careers Contact
+    <header class="header">
+      <nav class="header__nav">
+        <img
+          src="./images/logo.svg"
+          alt="logo"
+          class="header__logo"
+          width="120"
+          height="33"
+        />
 
-    <div class="attribution">
+        <button type="button" class="header__toggle" id="toggle-nav-btn">
+          <img
+            src="./assets/images/nav-btn.svg"
+            alt=""
+            width="24"
+            height="21"
+          />
+        </button>
+
+        <ul class="header__nav-list" id="nav-list">
+          <li class="header__list-item">
+            <a href="#" class="header__link">Features</a>
+          </li>
+
+          <li class="header__list-item">
+            <a href="#" class="header__link">Pricing</a>
+          </li>
+
+          <li class="header__list-item">
+            <a href="#" class="header__link">Resources</a>
+          </li>
+
+          <hr class="header__nav-divider" />
+
+          <li class="header__list-item">
+            <a href="#" class="header__link">Login</a>
+          </li>
+
+          <li class="header__list-item">
+            <a href="#" class="header__link">Sign Up</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <section class="header__hero">
+        <img
+          src="./assets/images/illustration-working.svg"
+          alt=""
+          class="header__hero-img"
+          width="733"
+          height="482"
+        />
+        <h1 class="header__title">More than just shorter links</h1>
+
+        <p class="header__description">
+          Build your brand’s recognition and get detailed insights on how your
+          links are performing.
+        </p>
+
+        <button type="button" class="header__cta">Get Started</button>
+      </section>
+    </header>
+
+    <!-- 
+    Shorten a link here... Shorten It! Advanced Statistics Track how your links
+    are performing across the web with our advanced statistics dashboard. Brand
+    Recognition Boost your brand recognition with each click. Generic links
+    don’t mean a thing. Branded links help instil confidence in your content.
+    Detailed Records Gain insights into who is clicking your links. Knowing when
+    and where people engage with your content helps inform better decisions.
+    Fully Customizable Improve brand awareness and content discoverability
+    through customizable links, supercharging audience engagement. Boost your
+    links today Get Started Features Link Shortening Branded Links Analytics
+    Resources Blog Developers Support Company About Our Team Careers Contact -->
+
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div> -->
   </body>
+
+  <!-- ============================================================
+    TODO: move this script to script.js
+   ================================================================ -->
+  <script>
+    const toggleNavBtn = document.getElementById("toggle-nav-btn");
+
+    const toggleNavList = () => {
+      const navList = document.getElementById("nav-list");
+      navList.classList.toggle("is-open");
+    };
+
+    toggleNavBtn.addEventListener("click", () => toggleNavList());
+  </script>
+  <!-- ============================================================= -->
 </html>
