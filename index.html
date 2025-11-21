@@ -107,7 +107,6 @@
           <li class="header__list-item">
             <a href="#" class="header__link">Sign Up</a>
           </li>
-
         </ul>
       </nav>
 
@@ -130,8 +129,32 @@
       </section>
     </header>
 
+    <section class="shortener">
+      <form class="shortener__form">
+        <input
+          type="url"
+          placeholder="Shorten a link here..."
+          class="shortener__form-input"
+        />
+        <button type="submit" class="shortener__form-btn">Shorten It!</button>
+      </form>
+
+      <!-- ============================================================
+      TODO: Move this to script.js, when working on shortener functionality  
+      ================================================================ -->
+
+      <section class="shortener__card" aria-live="polite">
+        <p class="shortener__link-origin">https://www.frontendmentor.io</p>
+        <hr class="shortener__card-divider" />
+        <p class="shortener__link-short">https://rel.ink/3j32kk</p>
+        <button class="shortener__copy-btn" type="button">Copy</button>
+      </section>
+    </section>
+
+    <!-- ============================================================= -->
+
     <!-- 
-    Shorten a link here... Shorten It! Advanced Statistics Track how your links
+      Advanced Statistics Track how your links
     are performing across the web with our advanced statistics dashboard. Brand
     Recognition Boost your brand recognition with each click. Generic links
     don’t mean a thing. Branded links help instil confidence in your content.
