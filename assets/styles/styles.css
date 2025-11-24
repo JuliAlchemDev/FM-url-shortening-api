@@ -180,6 +180,21 @@ body {
   background-color: var(--clr-basic-white);
   text-align: center;
   border-radius: 5px;
+
+  position: relative;
+}
+.statistics__list::before {
+  position: absolute;
+  content: '';
+  height: 88px;
+  width: 88px;
+  top:0;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('../icons/icon-brand-recognition.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--clr-primary-purple-950);
 }
 .statistics__feature {
   /* preset 4 bold */
@@ -189,6 +204,7 @@ body {
   letter-spacing: var(--ls-none);
 
   color: var(--clr-neutral-grey-900);
+  margin-block-start: var(--spacing-400);
   margin-block-end: var(--spacing-200);
 }
 .statistics__feature-description {
