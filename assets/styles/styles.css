@@ -122,6 +122,45 @@ body {
 
 /* ========== END HEADER SECTION ========== */
 
+/* ==========  STATISTICS SECTION ========== */
+
+.statistics__header {
+  text-align: center;
+}
+.statistics__title {
+  /* Preset 3 bold */
+  font-size: var(--fs-preset-3);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-170);
+  letter-spacing: var(--ls-none);
+
+  /* tablet & desktop: Preset 2 bold  
+  font-size: var(--fs-preset-2);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-115);
+  letter-spacing: var(--ls-tight);
+  */
+
+  color: var(--clr-neutral-grey-900);
+  margin-block-end: var(--spacing-300);
+
+}
+.statistics__description {
+  /* preset 7 medium */
+  font-size: var(--fs-preset-7);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-175);
+  letter-spacing: var(--ls-none);
+  /* tablet & desktop: Preset 6 medium  
+  font-size: var(--fs-preset-6);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-175);
+  letter-spacing: var(--ls-none);
+  */
+  color: var(--clr-neutral-grey-500);
+}
+/* ==========  END STATISTICS SECTION ========== */
+
 /*
 @media (min-width: 90rem) {
 
