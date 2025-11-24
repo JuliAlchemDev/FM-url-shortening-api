@@ -191,11 +191,21 @@ body {
   top:0;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  background-image: url('../icons/icon-brand-recognition.svg');
+  
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--clr-primary-purple-950);
 }
+.statistics__list.icon-brand::before {
+ background-image: url('../icons/icon-brand-recognition.svg');
+}
+.statistics__list.icon-detail::before {
+  background-image: url('../icons/icon-detailed-records.svg');
+}
+.statistics__list.icon-custom::before {
+  background-image: url('../icons/icon-fully-customizable.svg');
+}
+
 .statistics__feature {
   /* preset 4 bold */
   font-size: var(--fs-preset-4);
