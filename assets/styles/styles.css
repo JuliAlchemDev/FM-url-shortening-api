@@ -123,7 +123,12 @@ body {
 /* ========== END HEADER SECTION ========== */
 
 /* ==========  STATISTICS SECTION ========== */
-
+.statistics {
+  --stats-gap: var(--spacing-700); /* desktop: var(--spacing-400) */
+  background-color: var(--clr-neutral-purple-50);
+  display: grid;
+  gap: var(--stats-gap); 
+}
 .statistics__header {
   text-align: center;
 }
