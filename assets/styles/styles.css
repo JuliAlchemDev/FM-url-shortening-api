@@ -169,11 +169,24 @@ body {
 
   list-style-type: none;
   list-style-position: inside;
-  border: 1px solid red;
   max-width: 69.4rem;
+  position: relative;
+  z-index: 1;
   /* height: 1029px; */
 }
 
+.statistics__features::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  z-index: -1;
+  left: 50%;
+  width: 8px;
+  height: 100%;
+  transform: translateX(-50%);
+  background-color: var(--clr-primary-blue-400);
+
+} 
 
 .statistics__list {
   max-width: 21.8rem;
@@ -206,6 +219,8 @@ body {
 .statistics__list.icon-custom::before {
   background-image: url('../icons/icon-fully-customizable.svg');
 }
+
+
 
 .statistics__feature {
   /* preset 4 bold */
