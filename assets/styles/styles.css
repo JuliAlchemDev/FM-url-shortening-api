@@ -123,15 +123,17 @@ body {
 
 /* ==========  STATISTICS SECTION ========== */
 .statistics {
-  --stats-gap: var(--spacing-700); /* desktop: var(--spacing-400) */
+
   background-color: var(--clr-neutral-purple-50);
   display: grid;
   place-content: center;
-  gap: var(--stats-gap); 
+
 }
 .statistics__header {
   text-align: center;
-  margin-block-end: 54px;
+  margin-block-end: calc(56px + 44px); /* D 40px*/
+  border: 1px solid red;
+
 }
 .statistics__title {
   /* Preset 3 bold */
@@ -167,21 +169,24 @@ body {
 }
 /* TODO: change me  */
 .statistics__features {
-  padding: 10px;
+  padding: 0;
   display: grid;
-  place-content: center;
-  gap: 40px;
+  /* place-content: center; */
+  justify-content: center;
+  align-content: end;
+  gap: calc(44px + 72px);
 
   list-style-type: none;
   list-style-position: inside;
   border: 1px solid red;
   max-width: 69.4rem;
+  /* height: 1029px; */
 }
 /* TODO: change me  */
 
 .statistics__list {
   max-width: 21.8rem;
-  padding: 40px 24px;
+  padding: var(--spacing-500) var(--spacing-400); /* 40px 32px */
   background-color: var(--clr-basic-white);
   text-align: center;
   border-radius: 5px;
@@ -196,7 +201,7 @@ body {
   top:0;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  
+
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--clr-primary-purple-950);
@@ -219,6 +224,7 @@ body {
   letter-spacing: var(--ls-none);
 
   color: var(--clr-neutral-grey-900);
+
   margin-block-start: var(--spacing-400);
   margin-block-end: var(--spacing-200);
 }
