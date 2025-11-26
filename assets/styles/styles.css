@@ -126,10 +126,12 @@ body {
   --stats-gap: var(--spacing-700); /* desktop: var(--spacing-400) */
   background-color: var(--clr-neutral-purple-50);
   display: grid;
+  place-content: center;
   gap: var(--stats-gap); 
 }
 .statistics__header {
   text-align: center;
+  margin-block-end: 54px;
 }
 .statistics__title {
   /* Preset 3 bold */
@@ -167,15 +169,19 @@ body {
 .statistics__features {
   padding: 10px;
   display: grid;
+  place-content: center;
   gap: 40px;
 
   list-style-type: none;
   list-style-position: inside;
+  border: 1px solid red;
+  max-width: 69.4rem;
 }
 /* TODO: change me  */
 
 .statistics__list {
-  padding: 40px 32px;
+  max-width: 21.8rem;
+  padding: 40px 24px;
   background-color: var(--clr-basic-white);
   text-align: center;
   border-radius: 5px;
