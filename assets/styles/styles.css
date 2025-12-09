@@ -135,6 +135,10 @@ body {
 .shortener {
   position: relative;
   margin-block-start: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .shortener__form {
