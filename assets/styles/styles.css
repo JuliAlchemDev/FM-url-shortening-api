@@ -81,6 +81,7 @@ body {
 .header__hero-img {
   margin-inline-start: 5%;
   max-width: 135%;
+  width: 100%;
   height: auto;
 }
 
