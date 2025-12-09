@@ -197,6 +197,11 @@ body {
   user-select: none;
   cursor: pointer;
 }
+
+.shortener__form-btn:hover,
+.shortener__form-btn:focus-visible {
+  background-color: var(--clr-secondary-blue-300);
+}
 /* ========== END SHORTENER SECTION ========== */
 
 /* ==========  STATISTICS SECTION ========== */
