@@ -194,6 +194,13 @@ body {
   font-weight: var(--fw-medium);
 }
 
+@media (min-width: 48rem) {
+  .shortener__form-input {
+    font-size: var(--fs-preset-5);
+    padding: var(--spacing-200) var(--spacing-400);
+  }
+}
+
 .shortener__form-input::placeholder {
   font-weight: var(--fw-medium);
   color: var(--clr-neutral-grey-500);
