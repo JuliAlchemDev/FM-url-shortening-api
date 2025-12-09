@@ -246,7 +246,7 @@ body {
   background-color: var(--clr-neutral-purple-50);
   display: grid;
   place-content: center;
-  padding-block: var(--spacing-1000);
+  padding-block: var(--spacing-2000) var(--spacing-1000);
 }
 
 .statistics__header {
@@ -366,6 +366,9 @@ body {
 
 /* TODO: move to bottom  */
 @media (min-width: 48rem) {
+  .statistics {
+    padding-block: var(--spacing-2600) var(--spacing-1000);
+  }
   .statistics__header {
     max-width: 33.75rem;
   }
