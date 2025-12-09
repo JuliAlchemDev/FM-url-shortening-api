@@ -172,6 +172,11 @@ body {
   font-weight: var(--fw-medium);
 }
 
+.shortener__form-input::placeholder {
+  font-weight: var(--fw-medium);
+  color: var(--clr-neutral-grey-500);
+}
+
 .shortener__form-btn {
   width: 100%;
 }
