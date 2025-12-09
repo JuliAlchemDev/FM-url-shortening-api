@@ -143,6 +143,18 @@ body {
 
 .shortener__form {
   position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  width: 87.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--spacing-200);
+  padding: var(--spacing-300);
+  border-radius: 12px;
+  background-color: var(--clr-primary-purple-950);
+  overflow: hidden;
 }
 
 .shortener__form-btn {
