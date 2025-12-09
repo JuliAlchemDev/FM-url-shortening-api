@@ -155,6 +155,15 @@ body {
   border-radius: 12px;
   background-color: var(--clr-primary-purple-950);
   overflow: hidden;
+  max-width: 69.5rem;
+}
+
+@media (min-width: 48rem) {
+  .shortener__form {
+    flex-direction: row;
+    gap: var(--spacing-300);
+    padding: var(--spacing-650) var(--spacing-800);
+  }
 }
 
 .shortener__picture {
