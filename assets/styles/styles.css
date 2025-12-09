@@ -177,6 +177,14 @@ body {
   color: var(--clr-neutral-grey-500);
 }
 
+.shortener__form-input:focus-visible {
+  outline: 3px solid var(--clr-primary-blue-400);
+}
+
+.shortener__form-input:invalid {
+  outline: 3px solid red;
+}
+
 .shortener__form-btn {
   width: 100%;
 }
