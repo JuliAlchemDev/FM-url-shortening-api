@@ -132,7 +132,18 @@ body {
 /* ========== END HEADER SECTION ========== */
 
 /* ========== START SHORTENER SECTION ========== */
+.shortener {
+  position: relative;
+  margin-block-start: 10rem;
+}
 
+.shortener__form {
+  position: absolute;
+  transform: translate(0, -50%);
+  width: 100%;
+
+  outline: 1px solid red;
+}
 /* ========== END SHORTENER SECTION ========== */
 
 /* ==========  STATISTICS SECTION ========== */
