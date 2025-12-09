@@ -157,6 +157,13 @@ body {
   overflow: hidden;
 }
 
+.shortener__picture {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
 .shortener__form-btn {
   width: 100%;
 }
