@@ -210,8 +210,8 @@ body {
   outline: 3px solid var(--clr-primary-blue-400);
 }
 
-.shortener__form-input:invalid {
-  outline: 3px solid red;
+.shortener__form-input:focus-visible:invalid {
+  outline: 3px solid var(--clr-secondary-red-400);
 }
 
 .shortener__form-btn {
