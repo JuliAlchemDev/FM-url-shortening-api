@@ -139,10 +139,10 @@ body {
 
 .shortener__form {
   position: absolute;
-  transform: translate(0, -50%);
-  width: 100%;
+}
 
-  outline: 1px solid red;
+.shortener__form-btn {
+  width: 100%;
 }
 /* ========== END SHORTENER SECTION ========== */
 
