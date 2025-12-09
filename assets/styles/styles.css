@@ -227,6 +227,14 @@ body {
   cursor: pointer;
 }
 
+@media (min-width: 48rem) {
+  .shortener__form-btn {
+    max-width: 11.75rem;
+    font-size: var(--fs-preset-5);
+    padding: var(--spacing-200);
+  }
+}
+
 .shortener__form-btn:hover,
 .shortener__form-btn:focus-visible {
   background-color: var(--clr-secondary-blue-300);
