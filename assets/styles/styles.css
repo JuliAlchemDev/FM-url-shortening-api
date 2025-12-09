@@ -164,6 +164,14 @@ body {
   z-index: -1;
 }
 
+.shortener__form-input {
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  padding: var(--spacing-150) var(--spacing-200);
+  font-weight: var(--fw-medium);
+}
+
 .shortener__form-btn {
   width: 100%;
 }
