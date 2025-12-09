@@ -67,7 +67,7 @@
   </head>
 
   <body>
-     <header class="header">
+    <header class="header">
       <nav class="header__nav">
         <img
           src="./assets/images/logo.svg"
@@ -132,16 +132,30 @@
 
     <section class="shortener">
       <form class="shortener__form">
-        <picture class="shortener__picture"></picture>
+        <picture class="shortener__picture">
+          <source
+            media="(min-width: 48rem)"
+            srcset="./assets/images/bg-shorten-desktop.svg"
+            type="image/svg+xml"
+          />
+
+          <img
+            src="./assets/images/bg-shorten-mobile.svg"
+            alt=""
+            class="shortener__background"
+            type="image/svg+xml"
+          />
+        </picture>
 
         <input
           type="url"
           placeholder="Shorten a link here..."
           class="shortener__form-input"
         />
-        
+
         <button type="submit" class="shortener__form-btn">Shorten It!</button>
       </form>
+    </section>
 
     <!-- ============================================================
       TODO: Move this to script.js, when working on shortener functionality  
