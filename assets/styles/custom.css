@@ -46,15 +46,20 @@
 
   --spacing-none: 0; /* 0 */
   --spacing-100: 0.5rem; /* 8px */
+  --spacing-150: 0.75rem; /* 12px */
   --spacing-200: 1rem; /* 16px */
   --spacing-300: 1.5rem; /* 24px */
   --spacing-400: 2rem; /* 32px */
   --spacing-500: 2.5rem; /* 40px */
 
   --spacing-600: 3rem; /* 48px */
+  --spacing-650: 3.25rem; /* 52px */
   --spacing-700: 3.5rem; /* 56px */
+  --spacing-800: 4rem; /* 64px */
   --spacing-900: 4.5rem; /* 72px */
   --spacing-1000: 5rem; /* 80px */
+  --spacing-2000: 10rem; /* 160x */
+  --spacing-2600: 13rem; /* 208px */
 
   /* ================================
    TYPOGRAPHY
@@ -67,7 +72,7 @@
 
   --f-stl-normal: normal;
   --f-stl-italic: italic;
- 
+
   /* ================================
    FONT WEIGHTS
 
@@ -129,28 +134,44 @@
    - Use `font-display: swap` for better performance
    ================================ */
 
-  
 @font-face {
-  font-display: swap; 
-  font-family: 'Poppins';
+  font-display: swap;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/poppins-v24-latin/poppins-v24-latin-500.woff2') format('woff2'); 
+  src: url("../fonts/poppins-v24-latin/poppins-v24-latin-500.woff2")
+    format("woff2");
 }
 
 @font-face {
-  font-display: swap; 
-  font-family: 'Poppins';
+  font-display: swap;
+  font-family: "Poppins";
   font-style: italic;
   font-weight: 500;
-  src: url('../fonts/poppins-v24-latin/poppins-v24-latin-500italic.woff2') format('woff2'); 
+  src: url("../fonts/poppins-v24-latin/poppins-v24-latin-500italic.woff2")
+    format("woff2");
 }
 
 @font-face {
-  font-display: swap; 
-  font-family: 'Poppins';
+  font-display: swap;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/poppins-v24-latin/poppins-v24-latin-700.woff2') format('woff2'); 
+  src: url("../fonts/poppins-v24-latin/poppins-v24-latin-700.woff2")
+    format("woff2");
 }
 
+/* ================================
+   UTILITY CLASSES
+
+   - Define custom utility classes used in this project
+   ================================ */
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
