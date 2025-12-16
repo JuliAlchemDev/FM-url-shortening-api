@@ -474,6 +474,11 @@ body {
   border: none;
 }
 
+.footer__cta:hover,
+.footer__cta:focus-visible {
+  background-color: var(--clr-secondary-blue-300);
+}
+
 /* ========== END FOOTER SECTION ========== */
 
 /*
