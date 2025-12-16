@@ -462,6 +462,18 @@ body {
   font-size: var(--fs-preset-8);
 }
 
+.footer__cta {
+  color: var(--clr-basic-white);
+  background-color: var(--clr-primary-blue-400);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-preset-5);
+  padding: var(--spacing-150) var(--spacing-500);
+  cursor: pointer;
+  user-select: none;
+  border-radius: 100px;
+  border: none;
+}
+
 /* ========== END FOOTER SECTION ========== */
 
 /*
