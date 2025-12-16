@@ -547,6 +547,18 @@ body {
   text-decoration: none;
 }
 
+.footer__socials {
+  padding-block-start: var(--spacing-100);
+}
+
+.footer__socials-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-300);
+}
+
 /* ========== END FOOTER SECTION ========== */
 
 /*
