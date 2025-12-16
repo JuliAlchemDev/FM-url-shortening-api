@@ -509,6 +509,13 @@ body {
   margin-block-end: var(--spacing-150);
 }
 
+.footer__ul,
+.footer__socials-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* ========== END FOOTER SECTION ========== */
 
 /*
