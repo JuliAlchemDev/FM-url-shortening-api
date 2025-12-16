@@ -505,6 +505,10 @@ body {
   gap: var(--spacing-480);
 }
 
+.footer__logo {
+  margin-block-end: var(--spacing-150);
+}
+
 /* ========== END FOOTER SECTION ========== */
 
 /*
