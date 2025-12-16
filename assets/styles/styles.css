@@ -605,6 +605,12 @@ body {
   padding-block-start: var(--spacing-100);
 }
 
+@media (min-width: 48rem) {
+  .footer__socials {
+    padding-block-start: var(--spacing-50);
+  }
+}
+
 .footer__socials-ul {
   display: flex;
   flex-direction: row;
