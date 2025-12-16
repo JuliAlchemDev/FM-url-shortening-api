@@ -469,6 +469,12 @@ body {
   font-size: var(--fs-preset-8);
 }
 
+@media (min-width: 48rem) {
+  .footer__title {
+    font-size: var(--fs-preset-9);
+  }
+}
+
 .footer__cta {
   color: var(--clr-basic-white);
   background-color: var(--clr-primary-blue-400);
