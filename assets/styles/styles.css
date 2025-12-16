@@ -456,6 +456,12 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.footer__title {
+  color: var(--clr-basic-white);
+  font-size: var(--fs-preset-8);
+}
+
 /* ========== END FOOTER SECTION ========== */
 
 /*
