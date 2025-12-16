@@ -522,6 +522,17 @@ body {
   margin-block-end: var(--spacing-150);
 }
 
+@media (min-width: 48rem) {
+  .footer__logo {
+    margin-block-end: 0;
+    margin-inline-end: clamp(
+      var(--spacing-400),
+      -7.1429rem + 19.0476vw,
+      var(--spacing-2000)
+    );
+  }
+}
+
 .footer__category {
   display: flex;
   flex-direction: column;
