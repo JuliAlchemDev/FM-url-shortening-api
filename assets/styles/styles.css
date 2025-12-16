@@ -540,6 +540,29 @@ body {
   justify-content: center;
 }
 
+@media (min-width: 48rem) {
+  .footer__category {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-block-start: var(--spacing-50);
+  }
+
+  .footer__category:nth-of-type(1) {
+    position: relative;
+    left: var(--spacing-50);
+  }
+
+  .footer__category:nth-of-type(2) {
+    position: relative;
+    right: var(--spacing-150);
+  }
+
+  .footer__category:nth-of-type(3) {
+    position: relative;
+    right: var(--spacing-50);
+  }
+}
+
 .footer__category-title {
   font-size: var(--fs-preset-7);
   letter-spacing: var(--ls-tight);
