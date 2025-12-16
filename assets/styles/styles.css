@@ -442,6 +442,13 @@ body {
   padding-block: var(--spacing-1200);
 }
 
+@media (min-width: 48rem) {
+  .footer__boost {
+    gap: var(--spacing-300);
+    padding-block: var(--spacing-700);
+  }
+}
+
 .footer__picture {
   position: absolute;
   z-index: -1;
