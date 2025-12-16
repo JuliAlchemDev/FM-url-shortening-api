@@ -623,6 +623,15 @@ body {
   align-items: center;
   gap: var(--spacing-300);
 }
+
+.footer__socials-list {
+  transition: transform 0.15s ease-in-out;
+}
+
+.footer__socials-list:hover {
+  transform: scale(1.15);
+}
+
 /* ========== END FOOTER SECTION ========== */
 
 /*
