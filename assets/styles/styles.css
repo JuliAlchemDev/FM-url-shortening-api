@@ -601,6 +601,11 @@ body {
   text-decoration: none;
 }
 
+.footer__link:hover,
+.footer__link:focus-visible {
+  color: var(--clr-basic-white);
+}
+
 .footer__socials {
   padding-block-start: var(--spacing-100);
 }
