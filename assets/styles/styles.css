@@ -505,6 +505,19 @@ body {
   gap: var(--spacing-480);
 }
 
+@media (min-width: 48rem) {
+  .footer__links {
+    padding-block: var(--spacing-900);
+    padding-inline: var(--spacing-100);
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--spacing-480);
+    max-width: 70.5rem;
+    margin-inline: auto;
+  }
+}
+
 .footer__logo {
   margin-block-end: var(--spacing-150);
 }
@@ -558,7 +571,6 @@ body {
   align-items: center;
   gap: var(--spacing-300);
 }
-
 /* ========== END FOOTER SECTION ========== */
 
 /*
