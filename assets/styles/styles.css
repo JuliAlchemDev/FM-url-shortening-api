@@ -430,7 +430,17 @@ body {
 /* ==========  END STATISTICS SECTION ========== */
 
 /* ==========  FOOTER SECTION ========== */
-
+.footer__boost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-200);
+  position: relative;
+  z-index: 0;
+  background-color: var(--clr-primary-purple-950);
+  padding-block: var(--spacing-1200);
+}
 /* ========== END FOOTER SECTION ========== */
 
 /*
