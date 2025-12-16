@@ -430,6 +430,10 @@ body {
 /* ==========  END STATISTICS SECTION ========== */
 
 /* ==========  FOOTER SECTION ========== */
+.footer {
+  background-color: var(--clr-neutral-grey-950);
+}
+
 .footer__boost {
   display: flex;
   flex-direction: column;
