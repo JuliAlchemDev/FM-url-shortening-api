@@ -578,6 +578,13 @@ body {
   gap: var(--spacing-150);
 }
 
+@media (min-width: 48rem) {
+  .footer__ul {
+    align-items: flex-start;
+    gap: var(--spacing-150);
+  }
+}
+
 .footer__ul,
 .footer__socials-ul {
   list-style-type: none;
