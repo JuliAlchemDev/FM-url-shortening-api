@@ -603,7 +603,7 @@ body {
 
 .footer__link:hover,
 .footer__link:focus-visible {
-  color: var(--clr-basic-white);
+  color: var(--clr-primary-blue-400);
 }
 
 .footer__socials {
