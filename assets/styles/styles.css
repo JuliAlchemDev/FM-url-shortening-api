@@ -126,6 +126,7 @@ body {
 
   padding: var(--spacing-200) var(--spacing-500);
   border: 0;
+  outline: none;
   border-radius: 6.25rem;
   margin-block-start: 32px;
 }
