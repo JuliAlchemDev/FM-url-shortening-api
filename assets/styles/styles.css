@@ -24,8 +24,6 @@ body {
   justify-content: space-between;
   position: relative;
   margin-block-start: var(--margin-top);
-  /* border: 1px solid red; */
- 
 }
 
 .header__toggle {
@@ -66,11 +64,11 @@ body {
   color: var(--clr-basic-white);
   text-decoration: none;
   display: block;
-
+  outline: none;
   padding: var(--spacing-100);
 }
 
-.header__link:hover {
+.header__link:hover, .header__link:focus-visible{
   border-radius: 1.75rem;
   background-color: var(--clr-primary-blue-400);
 }
