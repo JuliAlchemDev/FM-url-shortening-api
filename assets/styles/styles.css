@@ -633,7 +633,8 @@ body {
   transition: color 0.15s ease-in-out;
 }
 
-.footer__socials-link:hover {
+.footer__socials-link:hover,
+.footer__socials-link:focus-visible {
   color: var(--clr-primary-blue-400);
 }
 /* ========== END FOOTER SECTION ========== */
