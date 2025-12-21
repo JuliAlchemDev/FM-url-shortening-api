@@ -624,12 +624,13 @@ body {
   gap: var(--spacing-300);
 }
 
-.footer__socials-list {
-  transition: transform 0.15s ease-in-out;
+.footer__socials-link {
+  color: var(--clr-basic-white);
+  transition: color 0.15s ease-in-out;
 }
 
-.footer__socials-list:hover {
-  transform: scale(1.15);
+.footer__socials-link:hover {
+  color: var(--clr-primary-blue-400);
 }
 /* ========== END FOOTER SECTION ========== */
 
