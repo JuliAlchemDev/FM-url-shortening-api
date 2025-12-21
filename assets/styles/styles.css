@@ -2,6 +2,10 @@ body {
   font-family: var(--ff-base);
 }
 
+:focus-visible {
+  outline: none;
+}
+
 /* ========== HEADER SECTION ========== */
 .header {
   display: grid;
