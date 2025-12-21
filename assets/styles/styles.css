@@ -15,12 +15,17 @@ body {
 }
 
 .header__nav {
-  width: 100%;
+  --margin-top: var(--spacing-500); 
+  /* Move to Desktop: --margin-top: var(--spacing-600);  */
+  width: 88%;
   display: grid;
   grid-template-columns: repeat(2, max-content);
   align-items: center;
   justify-content: space-between;
   position: relative;
+  margin-block-start: var(--margin-top);
+  /* border: 1px solid red; */
+ 
 }
 
 .header__toggle {
