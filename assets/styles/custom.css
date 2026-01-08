@@ -45,11 +45,13 @@
    ================================ */
 
   --spacing-none: 0; /* 0 */
+  --spacing-50: 0.25rem; /* 4px */
   --spacing-100: 0.5rem; /* 8px */
   --spacing-150: 0.75rem; /* 12px */
   --spacing-200: 1rem; /* 16px */
   --spacing-300: 1.5rem; /* 24px */
   --spacing-400: 2rem; /* 32px */
+  --spacing-480: 2.4rem; /* 38.4px */
   --spacing-500: 2.5rem; /* 40px */
 
   --spacing-600: 3rem; /* 48px */
@@ -58,6 +60,7 @@
   --spacing-800: 4rem; /* 64px */
   --spacing-900: 4.5rem; /* 72px */
   --spacing-1000: 5rem; /* 80px */
+  --spacing-1200: 6rem; /* 96px */
   --spacing-2000: 10rem; /* 160x */
   --spacing-2600: 13rem; /* 208px */
 
@@ -109,6 +112,8 @@
   --fs-preset-5: 1.25rem; /* 20px */
   --fs-preset-6: 1.1rem; /* 18px */
   --fs-preset-7: 0.9rem; /* 15px */
+  --fs-preset-8: 1.65rem; /* 26.4px */
+  --fs-preset-9: 2.4rem; /* 38.4px */
 
   /* ================================
    LINE HEIGHTS
