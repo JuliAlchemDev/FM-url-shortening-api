@@ -17,13 +17,15 @@ body {
 .header__nav {
   --margin-top: var(--spacing-500); 
   /* Move to Desktop: --margin-top: var(--spacing-600);  */
-  width: 88%;
+  
   display: grid;
   grid-template-columns: repeat(2, max-content);
   align-items: center;
   justify-content: space-between;
   position: relative;
   margin-block-start: var(--margin-top);
+  width: 87.5%;
+  max-width: 69.5rem;
 }
 
 .header__toggle {
@@ -184,7 +186,6 @@ body {
     color: var(--clr-basic-white);
   }
 }
-
 
 /* ========== END HEADER SECTION ========== */
 
