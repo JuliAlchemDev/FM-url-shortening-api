@@ -214,6 +214,17 @@ body {
   }
   .header__list-item:nth-child(6) {
     grid-column: -1;
+
+    background-color: var(--clr-primary-blue-400);
+    color: var(--clr-basic-white);
+    border-radius: 6.25rem;
+  }
+  .header__list-item:nth-child(6) .header__link:hover,
+  .header__list-item:nth-child(6) .header__link:focus-visible {
+    background-color: var(--clr-secondary-blue-300);
+  }
+  .header__list-item:nth-child(6) .header__link {
+    color: var(--clr-basic-white);
   }
   .header__link {
     color: var(--clr-neutral-grey-500);
