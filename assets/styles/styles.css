@@ -98,6 +98,9 @@ body {
 
 .header__title {
   color: var(--clr-neutral-grey-900);
+  max-inline-size: 85%;
+  margin: 0 auto;
+
   /* preset 2 bold */
   font-size: var(--fs-preset-2);
   line-height: var(--lh-115);
@@ -250,7 +253,7 @@ body {
     position: absolute;
     transform: translateX(73%);
   }
-  .header__description {
+  .header__description, .header__title {
     margin-inline: 0;
   }
   .header__cta {
