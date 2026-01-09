@@ -227,16 +227,21 @@ body {
   .header__hero {
     position: relative;
     display: grid;
-    place-content: center;
+    align-content: center;
+    justify-content: start;
     height: 32rem;
     width: 70%;
     text-align: start;
   }
-  .header__hero-img {
-    right: -80%;
-    position: absolute;
-  }
 
+  .header__hero-img {
+    left: 0;
+    position: absolute;
+    transform: translateX(73%);
+  }
+  .header__description {
+    margin-inline: 0;
+  }
   .header__cta {
     width: max-content;
   }
