@@ -16,8 +16,6 @@ body {
 
 .header__nav {
   --margin-top: var(--spacing-500);
-  /* Move to Desktop: --margin-top: var(--spacing-600);  */
-
   display: grid;
   grid-template-columns: repeat(2, max-content);
   align-items: center;
@@ -39,7 +37,6 @@ body {
   left: 0;
   top: var(--spacing-600);
 
-  /* preset 6 bold */
   list-style-type: none;
   font-size: var(--fs-preset-6);
   line-height: var(--lh-150);
@@ -101,7 +98,6 @@ body {
   max-inline-size: 85%;
   margin: 0 auto;
 
-  /* preset 2 bold */
   font-size: var(--fs-preset-2);
   line-height: var(--lh-115);
   letter-spacing: var(--ls-tight);
@@ -115,7 +111,6 @@ body {
   color: var(--clr-neutral-grey-500);
   margin: 0 auto;
   max-inline-size: 85%;
-  /* preset 6 medium */
   font-size: var(--fs-preset-6);
   line-height: var(--lh-175);
   letter-spacing: var(--ls-none);
@@ -123,7 +118,6 @@ body {
 }
 
 .header__cta {
-  /* preset 5 bold */
   font-size: var(--fs-preset-5);
   line-height: var(--lh-150);
   letter-spacing: var(--ls-none);
@@ -158,7 +152,6 @@ body {
     width: 95.5%;
   }
   .header__title {
-    /* preset 1 */
     margin-block-start: 0;
 
     font-size: var(--fs-preset-1);
@@ -167,7 +160,6 @@ body {
   }
   .header__description {
     width: 70%;
-    /* preset 4 medium */
     font-size: var(--fs-preset-4);
     font-weight: var(--fw-medium);
     line-height: var(--lh-165);
@@ -202,7 +194,6 @@ body {
     grid-template-columns: repeat(3, max-content) 1fr repeat(2, max-content);
     justify-content: start;
     padding: 0;
-    /* preset 7 bold color: gray-500 */
     font-size: var(--fs-preset-7);
     background-color: transparent;
 
@@ -385,11 +376,10 @@ body {
   --margin-bottom: var(--spacing-700);
   max-width: 21.8rem;
   text-align: center;
-  margin-block-end: calc(var(--margin-bottom) + 44px); /* D 40px*/
+  margin-block-end: calc(var(--margin-bottom) + 44px); 
 }
 
 .statistics__title {
-  /* Preset 3 bold */
   font-size: var(--fs-preset-3);
   font-weight: var(--fw-bold);
   line-height: var(--lh-170);
@@ -400,7 +390,6 @@ body {
 }
 
 .statistics__description {
-  /* preset 7 medium */
   font-size: var(--fs-preset-7);
   font-weight: var(--fw-medium);
   line-height: var(--lh-175);
@@ -412,7 +401,6 @@ body {
 .statistics__features {
   padding: 0;
   display: grid;
-  /* place-content: center; */
   justify-content: center;
   align-content: end;
   gap: calc(44px + 72px);
@@ -422,7 +410,6 @@ body {
   max-width: 69.4rem;
   position: relative;
   z-index: 1;
-  /* height: 1029px; */
 }
 
 .statistics__features::after {
@@ -440,7 +427,7 @@ body {
 .statistics__list {
   max-width: 21.8rem;
   max-height: max-content;
-  padding: var(--spacing-500) var(--spacing-400); /* 40px 32px */
+  padding: var(--spacing-500) var(--spacing-400); 
   background-color: var(--clr-basic-white);
   text-align: center;
   border-radius: 5px;
@@ -475,7 +462,6 @@ body {
 }
 
 .statistics__feature {
-  /* preset 4 bold */
   font-size: var(--fs-preset-4);
   font-weight: var(--fw-bold);
   line-height: var(--lh-150);
@@ -496,7 +482,6 @@ body {
   color: var(--clr-neutral-grey-500);
 }
 
-/* TODO: move to bottom  */
 @media (min-width: 48rem) {
   .statistics {
     padding-block: var(--spacing-2600) var(--spacing-1000);
@@ -505,14 +490,12 @@ body {
     max-width: 33.75rem;
   }
   .statistics__title {
-    /* tablet & desktop: Preset 2 bold  */
     font-size: var(--fs-preset-2);
     font-weight: var(--fw-bold);
     line-height: var(--lh-115);
     letter-spacing: var(--ls-tight);
   }
   .statistics__description {
-    /* tablet & desktop: Preset 6 medium  */
     font-size: var(--fs-preset-6);
     font-weight: var(--fw-medium);
     line-height: var(--lh-175);
