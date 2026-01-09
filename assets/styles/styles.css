@@ -103,8 +103,8 @@ body {
   letter-spacing: var(--ls-tight);
   font-weight: var(--fw-bold);
 
-  margin-block-start: 40px;
-  margin-block-end: 16px;
+  margin-block-start: var(--spacing-500);
+  margin-block-end: var(--spacing-200);
 }
 
 .header__description {
@@ -130,7 +130,7 @@ body {
   border: 0;
   outline: none;
   border-radius: 6.25rem;
-  margin-block-start: 32px;
+  margin-block-start: var(--spacing-400);
 }
 
 .header__cta:hover,
@@ -223,7 +223,7 @@ body {
   .header__link {
     color: var(--clr-neutral-grey-500);
     width: max-content;
-    padding: 8px 24px;
+    padding: var(--spacing-100) var(--spacing-300);
   }
   .header__link:hover,
   .header__link:focus-visible {
