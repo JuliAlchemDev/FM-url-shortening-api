@@ -51,7 +51,7 @@ body {
   width: 100%;
   border-radius: 0.6rem;
 
-  gap: var(--spacing-400);
+  gap: calc(var(--spacing-200) + 0.36rem);
   text-align: center;
 
   padding: var(--spacing-400) var(--spacing-200);
@@ -92,7 +92,7 @@ body {
 .header__hero-img {
   margin-inline-start: 5%;
   max-width: 135%;
-  width: 100%;
+  width: 140%;
   height: auto;
 }
 
@@ -110,6 +110,8 @@ body {
 
 .header__description {
   color: var(--clr-neutral-grey-500);
+  margin: 0 auto;
+  max-inline-size: 85%;
   /* preset 6 medium */
   font-size: var(--fs-preset-6);
   line-height: var(--lh-175);
