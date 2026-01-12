@@ -19,6 +19,7 @@
 
   /* Secondary */
 
+  --clr-secondary-red-200: hsl(0, 87%, 80%);
   --clr-secondary-red-400: hsl(0, 87%, 67%);
   --clr-secondary-blue-300: hsl(180, 57%, 75%);
   --clr-secondary-purple-900: hsl(256, 26%, 33%);
