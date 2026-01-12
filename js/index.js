@@ -1,5 +1,5 @@
 const input = document.getElementById("shorten-input");
-const button = document.querySelector(".shortener__form-btn");
+const form = document.querySelector(".shortener__form");
 
 async function getData(inputUrl) {
   try {
@@ -18,7 +18,7 @@ async function getData(inputUrl) {
   }
 }
 
-async function handleClick() {
+async function handleSubmit() {
   const isInvalid = !input.checkValidity() || input.value === "";
 
   if (isInvalid) {
@@ -30,11 +30,11 @@ async function handleClick() {
   console.log(data);
 }
 
-button.addEventListener("click", (e) => {
+form.addEventListener("submit", (e) => {
   e.preventDefault();
-  handleClick();
+  handleSubmit();
 });
 
-input.addEventListener("change", (e) => {
+input.addEventListener("input", (e) => {
   input.classList.remove("invalid");
 });
