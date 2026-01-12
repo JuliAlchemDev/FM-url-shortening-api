@@ -19,6 +19,12 @@ async function getData(inputUrl) {
 }
 
 async function handleClick() {
+  const isInvalid = !input.checkValidity() || input.value === "";
+
+  if (isInvalid) {
+    return;
+  }
+
   const data = await getData(input.value);
   console.log(data);
 }
