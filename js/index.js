@@ -22,6 +22,7 @@ async function handleClick() {
   const isInvalid = !input.checkValidity() || input.value === "";
 
   if (isInvalid) {
+    input.classList.add("invalid");
     return;
   }
 
@@ -32,4 +33,8 @@ async function handleClick() {
 button.addEventListener("click", (e) => {
   e.preventDefault();
   handleClick();
+});
+
+input.addEventListener("change", (e) => {
+  input.classList.remove("invalid");
 });
