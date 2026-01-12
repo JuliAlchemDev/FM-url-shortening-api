@@ -1,5 +1,6 @@
 const input = document.getElementById("shorten-input");
 const form = document.querySelector(".shortener__form");
+const message = document.querySelector(".shortener__message");
 
 async function getData(inputUrl) {
   try {
@@ -23,6 +24,7 @@ async function handleSubmit() {
 
   if (isInvalid) {
     input.classList.add("invalid");
+    message.hidden = false;
     return;
   }
 
@@ -37,4 +39,5 @@ form.addEventListener("submit", (e) => {
 
 input.addEventListener("input", (e) => {
   input.classList.remove("invalid");
+  message.hidden = true;
 });
