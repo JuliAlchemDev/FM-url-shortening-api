@@ -1,6 +1,7 @@
 const input = document.getElementById("shorten-input");
 const form = document.querySelector(".shortener__form");
 const message = document.querySelector(".shortener__message");
+const cards = document.querySelector(".cards");
 
 async function getData(inputUrl) {
   try {
@@ -19,8 +20,24 @@ async function getData(inputUrl) {
   }
 }
 
+function addListHtml(inputLink, shortenedLink) {
+  const listHtml = `<li class="cards__list">
+          <div class="cards__link-wrapper">
+            <p class="cards__input-link">${inputLink}</p>
+
+            <hr class="cards__divider" />
+
+            <p class="cards__shortened-link">${shortenedLink}</p>
+          </div>
+
+          <button class="cards__copy" type="button">Copy</button>
+        </li>`;
+  cards.insertAdjacentHTML("afterbegin", listHtml);
+}
+
 async function handleSubmit() {
-  const isInvalid = !input.checkValidity() || input.value === "";
+  const inputLink = input.value;
+  const isInvalid = !input.checkValidity() || inputLink === "";
 
   if (isInvalid) {
     input.classList.add("invalid");
@@ -28,8 +45,8 @@ async function handleSubmit() {
     return;
   }
 
-  const data = await getData(input.value);
-  console.log(data);
+  const shortenedLink = await getData(inputLink);
+  addListHtml(inputLink, shortenedLink);
 }
 
 form.addEventListener("submit", (e) => {
