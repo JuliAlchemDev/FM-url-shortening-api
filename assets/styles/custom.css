@@ -98,6 +98,7 @@
   --ls-tightest: -0.13rem; /* -2px */
   --ls-tight: 0.06rem; /* -1px */
   --ls-none: 0; /* 0 */
+  --ls-wide: 0.025rem; /* 0.4px */
 
   /* ================================
    FONT SIZES
@@ -116,6 +117,8 @@
   --fs-preset-7: 0.9rem; /* 15px */
   --fs-preset-8: 1.65rem; /* 26.4px */
   --fs-preset-9: 2.4rem; /* 38.4px */
+  --fs-preset-10: 0.95rem; /* 15.2px */
+  --fs-preset-11: 1.2rem; /* 19.2px */
 
   /* ================================
    LINE HEIGHTS
