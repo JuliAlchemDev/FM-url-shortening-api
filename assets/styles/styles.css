@@ -401,6 +401,8 @@ body {
   justify-content: center;
   gap: var(--spacing-300);
   padding: var(--spacing-none) var(--spacing-150);
+  max-width: 20rem;
+  margin-inline: auto;
 }
 
 @media (min-width: 48rem) {
@@ -408,6 +410,16 @@ body {
     padding: 0;
     transform: translateY(calc(var(--spacing-1200) * -1));
     gap: var(--spacing-200);
+    max-width: 33.75rem;
+  }
+}
+
+@media (min-width: 90rem) {
+  .cards {
+    padding: 0;
+    transform: translateY(calc(var(--spacing-1200) * -1));
+    gap: var(--spacing-200);
+    max-width: 69.5rem;
   }
 }
 
