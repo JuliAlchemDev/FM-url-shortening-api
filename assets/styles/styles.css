@@ -517,6 +517,10 @@ body {
   background-color: var(--clr-secondary-blue-300);
 }
 
+.cards__copy.active {
+  background-color: var(--clr-primary-purple-950);
+}
+
 /* ========== END CARDS SECTION ========== */
 
 /* ==========  STATISTICS SECTION ========== */
