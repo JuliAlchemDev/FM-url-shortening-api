@@ -35,6 +35,15 @@ function addListHtml(inputLink, shortenedLink) {
   cards.insertAdjacentHTML("afterbegin", listHtml);
 }
 
+function resetCopyButton() {
+  const buttons = cards.querySelectorAll(".cards__copy");
+
+  buttons.forEach((button) => {
+    button.textContent = "Copy";
+    button.classList.remove("active");
+  });
+}
+
 async function handleSubmit() {
   const inputLink = input.value;
   const isInvalid = !input.checkValidity() || inputLink === "";
@@ -57,4 +66,24 @@ form.addEventListener("submit", (e) => {
 input.addEventListener("input", (e) => {
   input.classList.remove("invalid");
   message.hidden = true;
+});
+
+cards.addEventListener("click", (e) => {
+  const isNotCopyButton = !e.target.matches(".cards__copy");
+
+  if (isNotCopyButton) {
+    return;
+  }
+
+  const card = e.target.closest(".cards__list");
+  const shortenedLink = card.querySelector(
+    ".cards__shortened-link"
+  ).textContent;
+  const button = card.querySelector(".cards__copy");
+
+  resetCopyButton();
+
+  button.textContent = "Copied!";
+  button.classList.add("active");
+  navigator.clipboard.writeText(shortenedLink);
 });
