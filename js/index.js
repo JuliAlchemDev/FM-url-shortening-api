@@ -1,7 +1,7 @@
 const input = document.getElementById("shorten-input");
 const form = document.querySelector(".shortener__form");
 const message = document.querySelector(".shortener__message");
-const cards = document.querySelector(".cards");
+const cards = document.querySelector(".cards__ul");
 
 async function getData(inputUrl) {
   try {
