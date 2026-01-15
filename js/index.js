@@ -5,16 +5,11 @@ const cards = document.querySelector(".cards");
 
 async function getData(inputUrl) {
   try {
-    const response = await fetch("http://localhost:3000/shorten", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-      body: `url=${encodeURIComponent(inputUrl)}`,
-    });
-
+    const response = await fetch(
+      `https://is.gd/create.php?format=json&url=${encodeURIComponent(inputUrl)}`
+    );
     const data = await response.json();
-    return data.result_url;
+    return data.shorturl;
   } catch (error) {
     console.error(error);
   }
