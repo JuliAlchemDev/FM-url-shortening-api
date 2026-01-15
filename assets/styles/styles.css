@@ -390,34 +390,29 @@ body {
 /* ========== END SHORTENER SECTION ========== */
 
 /* ========== START CARDS SECTION ========== */
-
 .cards {
+  width: 100%;
   background-color: var(--clr-neutral-purple-50);
+}
+
+.cards__ul {
   list-style-type: none;
-  transform: translateY(calc(var(--spacing-700) * -1));
+  transform: translateY(var(--spacing-1300));
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: var(--spacing-300);
-  padding: var(--spacing-none) var(--spacing-150);
-  max-width: 20rem;
+  padding: var(--spacing-none);
   margin-inline: auto;
-  width: 100%;
+  width: 87.5%;
+  max-width: 69.5rem;
 }
 
 @media (min-width: 48rem) {
-  .cards {
-    padding: 0;
-    transform: translateY(calc(var(--spacing-1200) * -1));
+  .cards__ul {
+    transform: translateY(var(--spacing-1400));
     gap: var(--spacing-200);
-    max-width: 33.75rem;
-  }
-}
-
-@media (min-width: 90rem) {
-  .cards {
-    max-width: 69.5rem;
   }
 }
 
@@ -427,7 +422,7 @@ body {
   width: 100%;
 }
 
-@media (min-width: 90rem) {
+@media (min-width: 64rem) {
   .cards__list {
     display: flex;
     flex-direction: row;
@@ -455,7 +450,13 @@ body {
   letter-spacing: var(--ls-wide);
 }
 
-@media (min-width: 90rem) {
+@media (min-width: 48rem) {
+  .cards__input-link {
+    padding: var(--spacing-200) var(--spacing-400) var(--spacing-150);
+  }
+}
+
+@media (min-width: 64rem) {
   .cards__input-link {
     padding: 0;
     font-size: var(--fs-preset-11);
@@ -468,7 +469,7 @@ body {
   background-color: var(--clr-neutral-grey-400);
 }
 
-@media (min-width: 90rem) {
+@media (min-width: 64rem) {
   .cards__divider {
     display: none;
   }
@@ -481,7 +482,13 @@ body {
   color: var(--clr-primary-blue-400);
 }
 
-@media (min-width: 90rem) {
+@media (min-width: 48rem) {
+  .cards__shortened-link {
+    padding: var(--spacing-150) var(--spacing-400) var(--spacing-200);
+  }
+}
+
+@media (min-width: 64rem) {
   .cards__shortened-link {
     padding: var(--spacing-none);
     font-size: var(--fs-preset-11);
@@ -504,7 +511,13 @@ body {
   cursor: pointer;
 }
 
-@media (min-width: 90rem) {
+@media (min-width: 48rem) {
+  .cards__copy {
+    width: calc(100% - 4rem);
+  }
+}
+
+@media (min-width: 64rem) {
   .cards__copy {
     margin-inline: var(--spacing-none);
     margin-block-end: var(--spacing-none);
