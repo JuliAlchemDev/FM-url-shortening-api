@@ -19,6 +19,7 @@
 
   /* Secondary */
 
+  --clr-secondary-red-200: hsl(0, 87%, 80%);
   --clr-secondary-red-400: hsl(0, 87%, 67%);
   --clr-secondary-blue-300: hsl(180, 57%, 75%);
   --clr-secondary-purple-900: hsl(256, 26%, 33%);
@@ -61,6 +62,8 @@
   --spacing-900: 4.5rem; /* 72px */
   --spacing-1000: 5rem; /* 80px */
   --spacing-1200: 6rem; /* 96px */
+  --spacing-1300: 6.5rem; /* 104px */
+  --spacing-1400: 7rem; /* 112px */
   --spacing-2000: 10rem; /* 160x */
   --spacing-2600: 13rem; /* 208px */
 
@@ -83,6 +86,7 @@
     - Add new values specific to the project if required
    ================================ */
 
+  --fw-light: 200;
   --fw-medium: 500;
   --fw-bold: 700;
 
@@ -96,6 +100,7 @@
   --ls-tightest: -0.13rem; /* -2px */
   --ls-tight: 0.06rem; /* -1px */
   --ls-none: 0; /* 0 */
+  --ls-wide: 0.025rem; /* 0.4px */
 
   /* ================================
    FONT SIZES
@@ -114,6 +119,8 @@
   --fs-preset-7: 0.9rem; /* 15px */
   --fs-preset-8: 1.65rem; /* 26.4px */
   --fs-preset-9: 2.4rem; /* 38.4px */
+  --fs-preset-10: 0.95rem; /* 15.2px */
+  --fs-preset-11: 1.2rem; /* 19.2px */
 
   /* ================================
    LINE HEIGHTS

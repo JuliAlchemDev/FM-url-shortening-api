@@ -131,7 +131,7 @@
     </header>
 
     <section class="shortener">
-      <form class="shortener__form">
+      <form class="shortener__form" novalidate>
         <picture class="shortener__picture">
           <source
             media="(min-width: 48rem)"
@@ -158,23 +158,17 @@
           class="shortener__form-input"
         />
 
+        <p class="shortener__message" hidden>Please add a link</p>
+
         <button type="submit" class="shortener__form-btn">Shorten It!</button>
       </form>
     </section>
 
-    <!-- ============================================================
-      TODO: Move this to script.js, when working on shortener functionality  
-      ================================================================
+    <section class="cards">
+      <h2 class="cards__title sr-only">Shortened Link Cards</h2>
 
-      <section class="shortener__card" aria-live="polite">
-        <p class="shortener__link-origin">https://www.frontendmentor.io</p>
-        <hr class="shortener__card-divider" />
-        <p class="shortener__link-short">https://rel.ink/3j32kk</p>
-        <button class="shortener__copy-btn" type="button">Copy</button>
-      </section>
+      <ul class="cards__ul" aria-live="polite"></ul>
     </section>
-
-    ============================================================= -->
 
     <section class="statistics">
       <header class="statistics__header">
@@ -409,6 +403,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div> -->
+    <script type="module" src="./js/index.js"></script>
   </body>
 
   <!-- ============================================================
