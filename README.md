@@ -69,3 +69,15 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 
 - Design challenge by [Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G)
 - URL shortening powered by the [is.gd API](https://is.gd/apishorteningreference.php)
+
+## Collaborators
+
+**Julia Alkhimova**
+
+- LinkedIn - [Julia Alkhimova](https://www.linkedin.com/in/julialkhimova/)
+- Frontend Mentor - [@JuliAlchemDev](https://www.frontendmentor.io/profile/JuliAlchemDev)
+
+**Elmar Chavez**
+
+- LinkedIn - [Elmar Chavez](https://www.linkedin.com/in/elmar-chavez/)
+- Frontend Mentor - [@CodingWithJiro](https://www.frontendmentor.io/profile/CodingWithJiro)
