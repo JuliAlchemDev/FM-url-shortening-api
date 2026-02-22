@@ -53,3 +53,14 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 - Applied a scalable CSS architecture using custom properties (design tokens), consistent spacing scale, and responsive breakpoints.
 - Resolved merge conflicts and removed duplicated HTML introduced during collaboration.
 - Organized repository workflow by setting up a `.github` directory and maintaining structured pull request practices.
+
+### What We Learned
+
+- Strengthened our understanding of integrating external APIs using `fetch`, `async/await`, and handling asynchronous data flows.
+- Practiced implementing form validation using both native browser validation and custom UI feedback.
+- Improved our skills in dynamic DOM manipulation, including generating components and handling event delegation.
+- Gained experience working with the Clipboard API and managing UI state transitions.
+- Deepened our understanding of accessibility patterns such as `aria-live`, semantic structure, and focus management.
+- Reinforced scalable CSS architecture principles using design tokens, responsive breakpoints, and consistent spacing systems.
+- Learned how to collaborate effectively through pull requests, merge conflict resolution, and maintaining clean commit history.
+- Improved attention to detail when implementing SEO metadata and structured head elements for production readiness.
