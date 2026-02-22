@@ -17,3 +17,33 @@ describe("toggleNavList", () => {
     expect(nav.classList.contains("is-open")).toBe(false);
   });
 });
+
+describe("addListHtml", () => {
+  test("should add a new list item with correct content", () => {
+    const urlOrigin = "https://example.com";
+    const urlShort = "https://is.gd/abc123";
+
+    const container = document.createElement("ul");
+
+    addListHtml(container, urlOrigin, urlShort);
+
+    const listItem = container.querySelector("li");
+    expect(listItem).not.toBeNull();
+
+    expect(container.textContent).toContain(urlOrigin);
+    expect(container.textContent).toContain(urlShort);
+
+    const btn = container.querySelector(".cards__copy");
+    expect(btn).not.toBeNull();
+  });
+
+  test("should add new item at the beginning", () => {
+    const container = document.createElement("ul");
+    container.innerHTML = `<li>Old item</li>`;
+    
+    addListHtml(container, "https://new.com", "https://is.gd/new");
+
+    const firstLi = container.firstChild;
+    expect(firstLi.querySelector(".cards__input-link").textContent).toBe("https://new.com");
+  });
+});
