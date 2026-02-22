@@ -64,3 +64,8 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 - Reinforced scalable CSS architecture principles using design tokens, responsive breakpoints, and consistent spacing systems.
 - Learned how to collaborate effectively through pull requests, merge conflict resolution, and maintaining clean commit history.
 - Improved attention to detail when implementing SEO metadata and structured head elements for production readiness.
+
+## Acknowledgements
+
+- Design challenge by [Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G)
+- URL shortening powered by the [is.gd API](https://is.gd/apishorteningreference.php)
