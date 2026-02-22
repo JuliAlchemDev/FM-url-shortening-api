@@ -47,3 +47,22 @@ describe("addListHtml", () => {
     expect(firstLi.querySelector(".cards__input-link").textContent).toBe("https://new.com");
   });
 });
+
+describe("resetCopyButton", () => {
+  test("should reset all copy buttons", () => {
+    const container = document.createElement("div");
+
+    container.innerHTML = `
+        <button class="cards__copy active">Copied!</button>
+        <button class="cards__copy active">Copied!</button>
+        `;
+
+    resetCopyButton(container);
+    const buttons = container.querySelectorAll(".cards__copy");
+
+    buttons.forEach((btn) => {
+      expect(btn.textContent).toBe("Copy");
+      expect(btn.classList.contains("active")).toBe(false);
+    });
+  });
+});
