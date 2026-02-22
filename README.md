@@ -70,7 +70,7 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 
 ---
 
-### What We Learned
+## What We Learned
 
 - Strengthened our understanding of integrating external APIs using `fetch`, `async/await`, and handling asynchronous data flows.
 - Practiced implementing form validation using both native browser validation and custom UI feedback.
