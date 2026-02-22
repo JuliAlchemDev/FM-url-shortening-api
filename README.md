@@ -5,3 +5,8 @@ A modern URL shortener that uses the **[is.gd link shortener API](https://is.gd/
 | MacBook Air Preview                         | iPad Pro 11 Preview                         | iPhone 14 Plus Preview                         |
 | ------------------------------------------- | ------------------------------------------- | ---------------------------------------------- |
 | ![Mobile](./assets/images/macbook-air.webp) | ![Mobile](./assets/images/ipad-pro-11.webp) | ![Mobile](./assets/images/iphone-14-plus.webp) |
+
+## Links
+
+- Solution URL: [GitHub](https://github.com/JuliAlchemDev/FM-url-shortening-api)
+- Live Site URL: [GitHub Pages](INSERT_LINK_HERE)
