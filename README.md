@@ -6,10 +6,14 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 | ------------------------------------------------- | ------------------------------------------------ | --------------------------------------------------- |
 | ![Desktop View](./assets/images/macbook-air.webp) | ![Tablet View](./assets/images/ipad-pro-11.webp) | ![Mobile View](./assets/images/iphone-14-plus.webp) |
 
+---
+
 ## Links
 
 - Solution URL: [GitHub](https://github.com/JuliAlchemDev/FM-url-shortening-api)
 - Live Site URL: [GitHub Pages](INSERT_LINK_HERE)
+
+---
 
 ## Features
 
@@ -23,6 +27,8 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 - Accessible markup with screen-reader labels and `aria-live` updates
 - Hover and focus-visible states for interactive elements
 
+---
+
 ## Built With
 
 [<img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -33,6 +39,8 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 [<img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" />](https://github.com/)
 [<img alt="VS Code" src="https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />](https://code.visualstudio.com/)
 [<img alt="Figma" src="https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />](https://www.figma.com/)
+
+---
 
 ## Our Process
 
@@ -54,6 +62,8 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 - Resolved merge conflicts and removed duplicated HTML introduced during collaboration.
 - Organized repository workflow by setting up a `.github` directory and maintaining structured pull request practices.
 
+---
+
 ### What We Learned
 
 - Strengthened our understanding of integrating external APIs using `fetch`, `async/await`, and handling asynchronous data flows.
@@ -65,10 +75,14 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 - Learned how to collaborate effectively through pull requests, merge conflict resolution, and maintaining clean commit history.
 - Improved attention to detail when implementing SEO metadata and structured head elements for production readiness.
 
+---
+
 ## Acknowledgements
 
 - Design challenge by [Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G)
 - URL shortening powered by the [is.gd API](https://is.gd/apishorteningreference.php)
+
+---
 
 ## Collaborators
 
