@@ -1,5 +1,7 @@
 # Shortly – URL Shortening API Landing Page
 
+A modern URL shortener that uses the **[is.gd link shortener API](https://is.gd/apishorteningreference.php)** to generate shortened links. It features real-time validation, clipboard copy functionality, and fully responsive design optimized for all screen sizes.
+
 ![Design preview for the Shortly URL shortening API coding challenge](preview.jpg)
 [Shortly URL shortening API Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G)
 
@@ -9,11 +11,9 @@ Thanks, Elmar ([@CodingWithJiro](https://github.com/CodingWithJiro)), for joinin
 
 ### 🤝 Collaborators & Collaboration Guidelines
 
+**Elmar Chaves - [CodingWithJiro](https://github.com/CodingWithJiro)**
 
- **Elmar Chaves - [CodingWithJiro](https://github.com/CodingWithJiro)**
-
- **Julia Alkhimova - [JuliAlchemDev](https://github.com/JuliAlchemDev)**
-
+**Julia Alkhimova - [JuliAlchemDev](https://github.com/JuliAlchemDev)**
 
 - Use clear and descriptive commit messages.
 - Keep Pull Requests small and focused.
@@ -35,10 +35,11 @@ Our challenge is to build out this landing page, integrate with the [Clean URI A
 
 other part is to practice github work flow
 
-## 🛠️ Building  project
+## 🛠️ Building project
 
 ### Basic structure
-````
+
+```
 /url-shortening-api
   /assets
     /fonts
@@ -48,7 +49,7 @@ other part is to practice github work flow
   /scripts
   index.html
   README.md
-````
+```
 
 ### Built with
 
@@ -63,11 +64,14 @@ other part is to practice github work flow
 In this project we'll be using a simple and clear Git workflow:
 
 #### **Main Branches**
+
 - **main** → Production-ready code
 - **dev** → Active development base branch
 
 #### **Feature Flow**
+
 1. Create a feature branch from `dev`:
+
    ```
    feature/your-feature-name
 
@@ -82,12 +86,12 @@ In this project we'll be using a simple and clear Git workflow:
 
 Once the project is complete, `dev` will be merged into `main`.
 
-
 ## 📌 Project Tasks
 
 Tasks will be tracked using GitHub Issues and Projects.
 
 Example tasks:
+
 - Set up project structure
 - Build base HTML layout
 - Apply responsive styles
@@ -98,7 +102,9 @@ Example tasks:
 ---
 
 ### 📄 License
+
 This project is for educational and portfolio purposes.
 
 ---
+
 **Have fun building!** 🚀
