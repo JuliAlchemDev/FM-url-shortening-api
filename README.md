@@ -33,3 +33,23 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 [<img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" />](https://github.com/)
 [<img alt="VS Code" src="https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />](https://code.visualstudio.com/)
 [<img alt="Figma" src="https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />](https://www.figma.com/)
+
+## Our Process
+
+- Enhanced the `<head>` section with proper SEO metadata, Open Graph tags, Twitter cards, canonical links, and favicon setup to improve discoverability and sharing previews.
+- Built the **Statistics section** using semantic HTML and BEM methodology, ensuring clean structure and scalable styling.
+- Implemented the **URL shortener logic** using JavaScript:
+  - Integrated the **[is.gd API](https://is.gd/apishorteningreference.php)** using `fetch` and `async/await`.
+  - Added client-side validation using HTML5 form validation APIs.
+  - Provided real-time UI feedback for invalid input.
+  - Dynamically rendered shortened link cards in the DOM.
+- Developed **copy-to-clipboard functionality** using the Clipboard API with visual state updates ("Copied!" button state).
+- Styled and enhanced the **Shortener section UI**, including validation states, focus styles, and responsive behavior.
+- Fully structured and styled the **Footer section**, applying accessibility considerations and responsive layout techniques.
+- Ensured accessibility improvements across sections:
+  - Used semantic elements and proper heading hierarchy.
+  - Applied `aria-live="polite"` for dynamically added shortened links.
+  - Implemented `:focus-visible` states for keyboard users.
+- Applied a scalable CSS architecture using custom properties (design tokens), consistent spacing scale, and responsive breakpoints.
+- Resolved merge conflicts and removed duplicated HTML introduced during collaboration.
+- Organized repository workflow by setting up a `.github` directory and maintaining structured pull request practices.
