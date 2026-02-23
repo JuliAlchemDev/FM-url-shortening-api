@@ -1,4 +1,9 @@
 {
+  "name": "url-shortening-api",
+  "version": "1.0.0",
+  "description": "Shortly is a URL shortening site that integrates the is.gd API, created as a collaborative project through Frontend Mentor.",
+  "author": "Julia Alkhimova & Elmar Chavez",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/.bin/jest"
