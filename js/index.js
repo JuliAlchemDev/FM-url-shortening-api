@@ -1,61 +1,25 @@
+import { getData } from "./api.js";
+import { toggleNavList, addListHtml, resetCopyButton } from "./ui.js";
+import { handleSubmit } from "./handlers.js";
+
 const input = document.getElementById("shorten-input");
 const form = document.querySelector(".shortener__form");
 const message = document.querySelector(".shortener__message");
 const cards = document.querySelector(".cards__ul");
+const toggleNavBtn = document.getElementById("toggle-nav-btn");
+const navList = document.getElementById("nav-list");
 
-async function getData(inputUrl) {
-  try {
-    const response = await fetch(
-      `https://is.gd/create.php?format=json&url=${encodeURIComponent(inputUrl)}`
-    );
-    const data = await response.json();
-    return data.shorturl;
-  } catch (error) {
-    console.error(error);
-  }
-}
-
-function addListHtml(inputLink, shortenedLink) {
-  const listHtml = `<li class="cards__list">
-          <div class="cards__link-wrapper">
-            <p class="cards__input-link">${inputLink}</p>
-
-            <hr class="cards__divider" />
-
-            <p class="cards__shortened-link">${shortenedLink}</p>
-          </div>
-
-          <button class="cards__copy" type="button">Copy</button>
-        </li>`;
-  cards.insertAdjacentHTML("afterbegin", listHtml);
-}
-
-function resetCopyButton() {
-  const buttons = cards.querySelectorAll(".cards__copy");
-
-  buttons.forEach((button) => {
-    button.textContent = "Copy";
-    button.classList.remove("active");
-  });
-}
-
-async function handleSubmit() {
-  const inputLink = input.value;
-  const isInvalid = !input.checkValidity() || inputLink === "";
-
-  if (isInvalid) {
-    input.classList.add("invalid");
-    message.hidden = false;
-    return;
-  }
-
-  const shortenedLink = await getData(inputLink);
-  addListHtml(inputLink, shortenedLink);
-}
+toggleNavBtn.addEventListener("click", () => toggleNavList(navList));
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  handleSubmit();
+  handleSubmit({
+    input,
+    message,
+    cards,
+    getData,
+    addListHtml,
+  });
 });
 
 input.addEventListener("input", (e) => {
@@ -72,13 +36,13 @@ cards.addEventListener("click", (e) => {
 
   const card = e.target.closest(".cards__list");
   const shortenedLink = card.querySelector(
-    ".cards__shortened-link"
+    ".cards__shortened-link",
   ).textContent;
-  const button = card.querySelector(".cards__copy");
 
-  resetCopyButton();
+  resetCopyButton(cards);
 
-  button.textContent = "Copied!";
-  button.classList.add("active");
+  e.target.textContent = "Copied!";
+  e.target.classList.add("active");
+
   navigator.clipboard.writeText(shortenedLink);
 });
