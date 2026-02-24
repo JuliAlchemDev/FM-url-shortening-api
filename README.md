@@ -44,6 +44,10 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 
 ## Our Process
 
+### Julia's Contribution
+
+- INSERT LIST HERE
+
 ### Elmar's Contribution
 
 - Enhanced the `<head>` section with proper SEO metadata, Open Graph tags, Twitter cards, canonical links, and favicon setup to improve discoverability and sharing previews.
@@ -63,10 +67,6 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 - Applied a scalable CSS architecture using custom properties (design tokens), consistent spacing scale, and responsive breakpoints.
 - Resolved merge conflicts and removed duplicated HTML introduced during collaboration.
 - Organized repository workflow by setting up a `.github` directory and maintaining structured pull request practices.
-
-### Julia's Contribution
-
-- INSERT LIST HERE
 
 ---
 
