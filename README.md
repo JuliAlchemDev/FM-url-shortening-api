@@ -11,7 +11,7 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 ## Links
 
 - Solution URL: [GitHub](https://github.com/JuliAlchemDev/FM-url-shortening-api)
-- Live Site URL: [GitHub Pages](INSERT_LINK_HERE)
+- Live Site URL: [GitHub Pages](https://julialchemdev.github.io/FM-url-shortening-api/)
 
 ---
 
@@ -26,6 +26,10 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 - Custom CSS design system using variables
 - Accessible markup with screen-reader labels and `aria-live` updates
 - Hover and focus-visible states for interactive elements
+- Performance Optimization through strategic font preloading
+- Lean HTML structure using CSS pseudo-elements for decorative assets and icons
+- Modular JavaScript (ESM) architecture for improved project scalability
+- Unit Testing Suite implemented with **Jest** to ensure core logic reliability
 
 ---
 
@@ -39,14 +43,22 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 [<img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" />](https://github.com/)
 [<img alt="VS Code" src="https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />](https://code.visualstudio.com/)
 [<img alt="Figma" src="https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />](https://www.figma.com/)
-
+[<img alt="Jest" src="https://img.shields.io/badge/-Jest-C21325?style=flat-square&logo=jest&logoColor=white" />](https://jestjs.io/)
 ---
 
 ## Our Process
 
 ### Julia's Contribution
 
-- INSERT LIST HERE
+- Established the project's **Architecture and Design System**, including a modular folder structure, `reset.css` implementation, and a scalable design system using **design tokens** (CSS variables) for consistent typography and spacing.
+- Developed the fully responsive **Header and Hero sections**, ensuring a mobile-first approach and resolving complex layout issues, such as the desktop horizontal overflow bug.
+- Engineered the **Statistics section's UI**, utilizing **CSS pseudo-elements** (`::before` and `::after`) for icon rendering and decorative connecting lines to maintain a clean and semantic HTML structure.
+- Built the structural foundation for the **URL shortener**, creating the input form and result card templates using **BEM methodology** and semantic HTML5 elements.
+- Led the **Modular JavaScript Refactoring (ESM)**, transitioning the codebase from a monolithic file into a clean, multi-module architecture (`api.js`, `ui.js`, `handlers.js`) to improve maintainability and testability.
+- Implemented a comprehensive **Unit Testing** suite, configuring the **Jest environment** and developing tests to verify API integration, DOM manipulation, and core business logic.
+- Improved project-wide **accessibility** by integrating ARIA attributes, ensuring proper button types, and implementing `:focus-visible` states for keyboard users.
+- Optimized **performance** and **service quality** with font preloading and detected issues in the initial shortening service via manual testing; migration to the **is.gd API** was carried out by a teammate.
+- Maintained **repository health and professional standards**, performing cleanup of obsolete assets, organizing file directories, and updating `package.json` with appropriate metadata and licenses.
 
 ### Elmar's Contribution
 
@@ -80,7 +92,13 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 - Reinforced scalable CSS architecture principles using design tokens, responsive breakpoints, and consistent spacing systems.
 - Learned how to collaborate effectively through pull requests, merge conflict resolution, and maintaining clean commit history.
 - Improved attention to detail when implementing SEO metadata and structured head elements for production readiness.
-
+-  Learned to refactor monolithic code into an ESM modular system (api.js, ui.js, handlers.js) to improve maintainability and testability.
+- Mastered the use of pseudo-elements `::before` / `::after` to render decorative assets and icons, significantly reducing HTML bloat.
+- Understood the impact of font preloading techniques on initial load times and overall web performance.
+- Experienced the process of migrating between external API providers (CleanURI to is.gd) and refactoring logic to ensure service continuity.
+- Actively engaged in peer code reviews, implementing complex refactors and BEM naming improvements based on collaborator feedback to ensure project consistency and high code quality.
+- Conducted thorough manual testing and visual verification across multiple breakpoints to identify and resolve layout regressions, such as the hero image overflow on desktop.
+- Demonstrated project ownership and professional care by maintaining high standards in PR documentation, meticulously tracking changes, and providing detailed technical notes for peer reviewers.
 ---
 
 ## Acknowledgements
