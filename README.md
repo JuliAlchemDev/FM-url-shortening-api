@@ -46,7 +46,18 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 
 ### Julia's Contribution
 
-- INSERT LIST HERE
+
+### Julia's Contribution
+
+- Established the project's **Architecture and Design System**, including a modular folder structure, `reset.css` implementation, and a scalable design system using **design tokens** (CSS variables) for consistent typography and spacing.
+- Developed the fully responsive **Header and Hero sections**, ensuring a mobile-first approach and resolving complex layout issues, such as the desktop horizontal overflow bug.
+- Engineered the **Statistics section's UI**, utilizing **CSS pseudo-elements** (`::before` and `::after`) for icon rendering and decorative connecting lines to maintain a clean and semantic HTML structure.
+- Built the structural foundation for the **URL shortener**, creating the input form and result card templates using **BEM methodology** and semantic HTML5 elements.
+- Led the **Modular JavaScript Refactoring (ESM)**, transitioning the codebase from a monolithic file into a clean, multi-module architecture (`api.js`, `ui.js`, `handlers.js`) to improve maintainability and testability.
+- Implemented a comprehensive **Unit Testing** suite, configuring the **Jest environment** and developing tests to verify API integration, DOM manipulation, and core business logic.
+- Improved project-wide **accessibility** by integrating ARIA attributes, ensuring proper button types, and implementing `:focus-visible` states for keyboard users.
+- Optimized **performance** and **service quality** with font preloading and detected issues in the initial shortening service via manual testing; migration to the **is.gd API** was carried out by a teammate.
+- Maintained **repository health and professional standards**, performing cleanup of obsolete assets, organizing file directories, and updating `package.json` with appropriate metadata and licenses.
 
 ### Elmar's Contribution
 
