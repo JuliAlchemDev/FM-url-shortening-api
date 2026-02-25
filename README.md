@@ -26,6 +26,10 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 - Custom CSS design system using variables
 - Accessible markup with screen-reader labels and `aria-live` updates
 - Hover and focus-visible states for interactive elements
+- Performance Optimization through strategic font preloading
+- Lean HTML structure using CSS pseudo-elements for decorative assets and icons
+- Modular JavaScript (ESM) architecture for improved project scalability
+- Unit Testing Suite implemented with **Jest** to ensure core logic reliability
 
 ---
 
