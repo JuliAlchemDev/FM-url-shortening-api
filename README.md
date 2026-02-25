@@ -95,7 +95,13 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 - Reinforced scalable CSS architecture principles using design tokens, responsive breakpoints, and consistent spacing systems.
 - Learned how to collaborate effectively through pull requests, merge conflict resolution, and maintaining clean commit history.
 - Improved attention to detail when implementing SEO metadata and structured head elements for production readiness.
-
+-  Learned to refactor monolithic code into an ESM modular system (api.js, ui.js, handlers.js) to improve maintainability and testability.
+- Mastered the use of pseudo-elements (::before/::after) to render decorative assets and icons, significantly reducing HTML bloat.
+- Understood the impact of font preloading techniques on initial load times and overall web performance.
+- Experienced the process of migrating between external API providers (CleanURI to is.gd) and refactoring logic to ensure service continuity.
+- Actively engaged in peer code reviews, implementing complex refactors and BEM naming improvements based on collaborator feedback to ensure project consistency and high code quality.
+- Conducted thorough manual testing and visual verification across multiple breakpoints to identify and resolve layout regressions, such as the hero image overflow on desktop.
+- Demonstrated project ownership and professional care by maintaining high standards in PR documentation, meticulously tracking changes, and providing detailed technical notes for peer reviewers.
 ---
 
 ## Acknowledgements
