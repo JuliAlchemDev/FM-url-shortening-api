@@ -11,7 +11,7 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 ## Links
 
 - Solution URL: [GitHub](https://github.com/JuliAlchemDev/FM-url-shortening-api)
-- Live Site URL: [GitHub Pages](INSERT_LINK_HERE)
+- Live Site URL: [GitHub Pages](https://julialchemdev.github.io/FM-url-shortening-api/)
 
 ---
 
@@ -47,9 +47,6 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 ---
 
 ## Our Process
-
-### Julia's Contribution
-
 
 ### Julia's Contribution
 
@@ -96,7 +93,7 @@ A modern URL shortener that uses the **[is.gd API](https://is.gd/apishorteningre
 - Learned how to collaborate effectively through pull requests, merge conflict resolution, and maintaining clean commit history.
 - Improved attention to detail when implementing SEO metadata and structured head elements for production readiness.
 -  Learned to refactor monolithic code into an ESM modular system (api.js, ui.js, handlers.js) to improve maintainability and testability.
-- Mastered the use of pseudo-elements (::before/::after) to render decorative assets and icons, significantly reducing HTML bloat.
+- Mastered the use of pseudo-elements `::before` / `::after` to render decorative assets and icons, significantly reducing HTML bloat.
 - Understood the impact of font preloading techniques on initial load times and overall web performance.
 - Experienced the process of migrating between external API providers (CleanURI to is.gd) and refactoring logic to ensure service continuity.
 - Actively engaged in peer code reviews, implementing complex refactors and BEM naming improvements based on collaborator feedback to ensure project consistency and high code quality.
